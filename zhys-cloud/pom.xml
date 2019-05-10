@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>zhys</artifactId>
+        <groupId>com.zhys</groupId>
+        <version>1.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>zhys-cloud</artifactId>
+    <packaging>pom</packaging>
+    <name>zhys-cloud</name>
+    <description>智慧云尚 - 云上社区 springcloud基础架构</description>
+    <modules>
+        <module>cloud-registry</module>
+        <module>cloud-config</module>
+        <module>cloud-monitor</module>
+        <module>cloud-admin</module>
+    </modules>
+
+
+</project>

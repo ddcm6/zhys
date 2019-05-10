@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.zhys.common.redis.ZhysRedisAutoConfigure,\
+com.zhys.common.redis.limit.config.RedisLimitAutoConfigurer

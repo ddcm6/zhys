@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>zhys</artifactId>
+        <groupId>com.zhys</groupId>
+        <version>1.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>zhys-common-starter</artifactId>
+    <packaging>pom</packaging>
+    <name>zhys-common-starter</name>
+    <description>智慧云尚 - 云上社区 工具包基础架构</description>
+    <modules>
+        <module>zhys-common-spring-boot-starter</module>
+        <module>zhys-log-spring-boot-starter</module>
+        <module>zhys-redis-spring-boot-starter</module>
+        <module>zhys-ribbon-spring-boot-starter</module>
+        <module>zhys-swagger2-spring-boot-starter</module>
+    </modules>
+
+
+</project>

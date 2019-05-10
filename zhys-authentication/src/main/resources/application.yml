@@ -1,0 +1,32 @@
+server:
+  port: 9003
+
+spring:
+  application:
+    name: zhys-authentication-server
+  profiles:
+    active: dev
+  cloud:
+    config:
+      fail-fast: true
+      profile: ${spring.profiles.active}
+      label: master
+      discovery:
+        service-id: zhys-config
+        enabled: true
+
+---
+spring:
+  profiles: dev
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9000/eureka
+
+---
+spring:
+  profiles: test
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://zhys-registry:9000/eureka
